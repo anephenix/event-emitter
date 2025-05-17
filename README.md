@@ -17,8 +17,8 @@ npm i @anephenix/event-emitter
 ## Usage
 
 ```typescript
-// Load the dependency class
-import EventEmitter from "@anephenix/event-emitter";
+// Load the dependency class for TypeScript usage
+import EventEmitter from "@anephenix/event-emitter/src/EventEmitter";
 
 // Create an instance of the event emitter class with type safety
 const eventEmitter = new EventEmitter();
@@ -78,11 +78,11 @@ You may find that you'll want to add some type safety to the list of event
 names that are used in your application, as well as the data payloads that
 they emit and pass to handler functions.
 
-The library allows you to define that by using a Type that is passed to the
+The library allows you to define that by using a type that is passed to the
 setup of the EventEmitter instance, like this:
 
 ```typescript
-interface MyEvents {
+type MyEvents = {
   message: (data: string) => void;
   join: (username: string) => void;
   leave: (username: string) => void;
