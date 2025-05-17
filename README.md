@@ -1,4 +1,4 @@
-event-emitter
+# Event Emitter
 
 A small event emitter library, designed for use in front-end applications
 like Svelte applications.
