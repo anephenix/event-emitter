@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.0.3 - Saturday 17th May, 2025
+
+- Make sure publish is to a public package
+
 ### 0.0.2 - Saturday 17th May, 2025
 
 - Updated changelog
