@@ -1,0 +1,55 @@
+{
+	"name": "@anephenix/event-emitter",
+	"version": "1.0.0",
+	"description": "A small EventEmitter library",
+  "author": "Paul Jensen <paul@anephenix.com>",
+  "maintainers": [
+    {
+      "name": "Paul Jensen",
+      "email": "paul@anephenix.com"
+    }
+  ],
+  "keywords": ["event-emitter"],
+	"homepage": "https://github.com/anephenix/event-emitter#readme",
+	"bugs": {
+		"url": "https://github.com/anephenix/event-emitter/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anephenix/event-emitter.git"
+	},
+	"license": "MIT",
+	"type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+	"scripts": {
+    "build": "tsc --project tsconfig.json",
+    "lint": "biome lint",
+		"format": "biome format --fix",
+		"prepare": "husky install",
+    "prepare-patch-release": "npm run update-changelog && git add CHANGELOG.md && git commit -m \"Updated changelog\" && npm version patch",
+    "publish-patch-release": "npm run prepare-patch-release && git push origin main && git push --tags",
+    "size": "size-limit",
+		"test": "vitest --run",
+    "update-changelog": "npx ts-node scripts/update-changelog.ts"
+	},
+  "size-limit": [
+    {
+      "path": "dist/*.js",
+      "limit": "10 KB"
+    }
+  ],  
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+    "@size-limit/esbuild-why": "^11.2.0",
+    "@size-limit/preset-small-lib": "^11.2.0",
+		"husky": "^9.1.7",
+		"size-limit": "^11.2.0",
+		"typescript": "^5.8.3",
+		"vitest": "^3.1.3"
+	}
+}
