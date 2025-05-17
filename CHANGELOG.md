@@ -2,6 +2,7 @@
 
 ### 0.0.2 - Saturday 17th May, 2025
 
+- Updated changelog
 - Update dependencies and script
 - Added GitHub workflow scripts
 - Added support for code coverage checking

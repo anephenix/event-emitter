@@ -1,12 +1,14 @@
 import { execSync } from 'child_process';
 import { readFileSync, writeFileSync } from 'fs';
-import { join, dirname } from 'path';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
 
-const currentDir = dirname();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 // Paths
-const packageJsonPath = join(currentDir, '../package.json');
-const changelogPath = join(currentDir, '../CHANGELOG.md');
+const packageJsonPath = join(__dirname, '../package.json');
+const changelogPath = join(__dirname, '../CHANGELOG.md');
 
 // Get current version from package.json
 const packageJson = JSON.parse(readFileSync(packageJsonPath, 'utf-8'));
