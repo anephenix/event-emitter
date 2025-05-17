@@ -1,5 +1,7 @@
 # Event Emitter
 
+[![npm version](https://badge.fury.io/js/%40anephenix%2Fevent-emitter.svg)](https://badge.fury.io/js/%40anephenix%2Fevent-emitter) ![example workflow](https://github.com/anephenix/event-emitter/actions/workflows/main.yml/badge.svg) [![Socket Badge](https://socket.dev/api/badge/npm/package/@anephenix/event-emitter)](https://socket.dev/npm/package/@anephenix/event-emitter)
+
 A small event emitter library, designed for use in front-end applications
 like Svelte applications.
 
