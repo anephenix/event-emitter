@@ -24,6 +24,9 @@ import EventEmitter from "@anephenix/event-emitter/src/EventEmitter";
 const eventEmitter = new EventEmitter();
 ```
 
+*NOTE* - I will be looking to resolve how to load the EventEmitter class 
+in a simpler way.
+
 We can now pass that eventEmitter instance to the places where we want to
 either trigger an event or react to an event.
 

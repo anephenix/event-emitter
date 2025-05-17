@@ -38,7 +38,7 @@ describe("EventEmitter", () => {
 			const emitter = new EventEmitter<MyEvents>();
 			const listener = vi.fn();
 			emitter.on("testEvent", listener);
-			expect(emitter["events"].testEvent).toContain(listener);
+			expect(emitter.events.testEvent).toContain(listener);
 		});
 	});
 
@@ -48,7 +48,7 @@ describe("EventEmitter", () => {
 			const listener = vi.fn();
 			emitter.on("testEvent", listener);
 			emitter.off("testEvent", listener);
-			expect(emitter["events"].testEvent).not.toContain(listener);
+			expect(emitter.events.testEvent).not.toContain(listener);
 		});
 
 		test("should not throw when removing a non-existent listener", () => {

@@ -1,11 +1,5 @@
 {
-    "all": true,
-    "include": [
-      "src/**/*.ts"
-    ],
-    "exclude": [
-      "dist/**/*",
-      "scripts/**/*",
-      "test/**/*"
-    ]
-  }
+	"all": true,
+	"include": ["src/**/*.ts"],
+	"exclude": ["dist/**/*", "scripts/**/*", "test/**/*"]
+}

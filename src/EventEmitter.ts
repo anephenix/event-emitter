@@ -1,8 +1,8 @@
 // Generic type for an event map where each key has a listener signature
-type EventMap = Record<string, (...args: any[]) => void>;
+type EventMap = Record<string, (...args: unknown[]) => void>;
 
 class EventEmitter<T extends EventMap> {
-	private events: { [K in keyof T]?: T[K][] } = {};
+	events: { [K in keyof T]?: T[K][] } = {};
 	enableLogging = false;
 
 	log(...args: unknown[]) {
@@ -15,7 +15,7 @@ class EventEmitter<T extends EventMap> {
 		if (!this.events[event]) {
 			this.events[event] = [];
 		}
-		this.events[event]!.push(listener);
+		this.events[event].push(listener);
 	}
 
 	off<K extends keyof T>(event: K, listener: T[K]): void {

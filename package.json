@@ -9,9 +9,7 @@
 			"email": "paul@anephenix.com"
 		}
 	],
-	"keywords": [
-		"event-emitter"
-	],
+	"keywords": ["event-emitter"],
 	"homepage": "https://github.com/anephenix/event-emitter#readme",
 	"bugs": {
 		"url": "https://github.com/anephenix/event-emitter/issues"
@@ -24,10 +22,7 @@
 	"type": "module",
 	"main": "dist/index.js",
 	"typings": "dist/index.d.ts",
-	"files": [
-		"dist",
-		"src"
-	],
+	"files": ["dist", "src"],
 	"scripts": {
 		"build": "tsc --project tsconfig.json",
 		"cover": "npx nyc --reporter=lcov --reporter=text-summary --nycrc-path=./.nyc.json -- npm t --  --coverage",
