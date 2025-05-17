@@ -38,7 +38,7 @@
 		"publish-patch-release": "npm run prepare-patch-release && git push origin main && git push --tags",
 		"size": "size-limit",
 		"test": "vitest --run",
-		"update-changelog": "npx ts-node scripts/update-changelog.ts"
+		"update-changelog": "node --experimental-strip-types scripts/update-changelog.ts"
 	},
 	"size-limit": [
 		{
