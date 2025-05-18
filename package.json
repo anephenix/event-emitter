@@ -1,6 +1,6 @@
 {
 	"name": "@anephenix/event-emitter",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A small EventEmitter library",
 	"author": "Paul Jensen <paul@anephenix.com>",
 	"maintainers": [
@@ -9,7 +9,9 @@
 			"email": "paul@anephenix.com"
 		}
 	],
-	"keywords": ["event-emitter"],
+	"keywords": [
+		"event-emitter"
+	],
 	"homepage": "https://github.com/anephenix/event-emitter#readme",
 	"bugs": {
 		"url": "https://github.com/anephenix/event-emitter/issues"
@@ -28,7 +30,10 @@
 			"types": "./dist/index.d.ts"
 		}
 	},
-	"files": ["dist", "src"],
+	"files": [
+		"dist",
+		"src"
+	],
 	"scripts": {
 		"build": "tsc --project tsconfig.json",
 		"cover": "npx nyc --reporter=lcov --reporter=text-summary --nycrc-path=./.nyc.json -- npm t --  --coverage",
