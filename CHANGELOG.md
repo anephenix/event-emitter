@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.0.5 - Sunday 18th May, 2025
+
+- Resolved the issue with the EventMap type
+
 ### 0.0.4 - Sunday 18th May, 2025
 
 - Resolved the module loading issue
