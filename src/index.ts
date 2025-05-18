@@ -1,2 +1,1 @@
-import EventEmitter from "./EventEmitter";
-export default EventEmitter;
+export { default } from "./EventEmitter";
