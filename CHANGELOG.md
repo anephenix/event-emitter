@@ -1,5 +1,10 @@
 # Changelog
 
+### 0.0.6 - Sunday 18th May, 2025
+
+- Fix for a typo
+- Updated the README to reflect a type use accurately in the docs
+
 ### 0.0.5 - Sunday 18th May, 2025
 
 - Resolved the issue with the EventMap type
