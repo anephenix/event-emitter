@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.0.7 - Sunday 18th May, 2025
+
+- Added a missing step to the workflow
+
 ### 0.0.6 - Sunday 18th May, 2025
 
 - Fix for a typo
