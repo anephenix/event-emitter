@@ -83,7 +83,7 @@ setup of the EventEmitter instance, like this:
 
 ```typescript
 type MyEvents = {
-  message: (data: string) => void;
+  message: (data: { name: string; text: string }) => void;
   join: (username: string) => void;
   leave: (username: string) => void;
 }
