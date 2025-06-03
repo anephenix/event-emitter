@@ -1,4 +1,6 @@
 name: size
+permissions:
+    contents: read
 on: [pull_request]
 jobs:
   size:
