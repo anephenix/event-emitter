@@ -1,5 +1,24 @@
 # Changelog
 
+### 0.0.8 - Monday 14th July, 2025
+
+- Applied some changes for Husky, and added EventMap to the exports
+- Merge pull request #17 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.1.1
+- Bump @biomejs/biome from 2.0.6 to 2.1.1
+- Updated dependencies
+- Merge pull request #16 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.0.6
+- Merge pull request #13 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-3.2.4
+- Merge pull request #12 from anephenix/dependabot/npm_and_yarn/vitest-3.2.4
+- Bump @biomejs/biome from 1.9.4 to 2.0.6
+- Bump @vitest/coverage-v8 from 3.1.4 to 3.2.4
+- Bump vitest from 3.1.4 to 3.2.4
+- Updated dependencies
+- Modified GitHub workflow permissions
+- Merge pull request #2 from anephenix/dependabot/npm_and_yarn/vitest-3.1.4
+- Merge pull request #1 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-3.1.4
+- Bump vitest from 3.1.3 to 3.1.4
+- Bump @vitest/coverage-v8 from 3.1.3 to 3.1.4
+
 ### 0.0.7 - Sunday 18th May, 2025
 
 - Added a missing step to the workflow
