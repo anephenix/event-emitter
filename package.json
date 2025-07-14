@@ -1,6 +1,6 @@
 {
 	"name": "@anephenix/event-emitter",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "A small EventEmitter library",
 	"author": "Paul Jensen <paul@anephenix.com>",
 	"maintainers": [
