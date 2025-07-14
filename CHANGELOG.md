@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.0.9 - Monday 14th July, 2025
+
+- Fix for getting a type exported in the build
+
 ### 0.0.8 - Monday 14th July, 2025
 
 - Applied some changes for Husky, and added EventMap to the exports
