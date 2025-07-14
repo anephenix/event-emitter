@@ -1,6 +1,5 @@
 // Generic type for an event map where each key has a listener signature
-// biome-ignore lint/suspicious/noExplicitAny: 
-type EventMap = Record<string, (...args: any[]) => void>;
+export type EventMap = Record<string, (...args: unknown[]) => void>;
 
 class EventEmitter<T extends EventMap> {
 	events: { [K in keyof T]?: T[K][] } = {};
