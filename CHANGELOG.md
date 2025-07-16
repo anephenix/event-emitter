@@ -1,5 +1,9 @@
 # Changelog
 
+### 0.0.10 - Wednesday 16th July, 2025
+
+- Tweaks for the build to ensure it loads fine for vitest
+
 ### 0.0.9 - Monday 14th July, 2025
 
 - Fix for getting a type exported in the build
