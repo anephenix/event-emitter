@@ -1,2 +1,2 @@
-export type { EventMap } from "./EventEmitter";
-export { default } from "./EventEmitter";
+export type { EventMap } from "./EventEmitter.js";
+export { default } from "./EventEmitter.js";
