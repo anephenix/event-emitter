@@ -1,5 +1,11 @@
 # Changelog
 
+### 0.0.11 - Wednesday 16th July, 2025
+
+- Merge branch 'main' of github.com:anephenix/event-emitter
+- Merge pull request #18 from anephenix/dependabot/npm_and_yarn/types/node-24.0.14
+- Bump @types/node from 24.0.13 to 24.0.14
+
 ### 0.0.10 - Wednesday 16th July, 2025
 
 - Tweaks for the build to ensure it loads fine for vitest
