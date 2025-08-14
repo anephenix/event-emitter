@@ -82,7 +82,10 @@ The library allows you to define that by using a type that is passed to the
 setup of the EventEmitter instance, like this:
 
 ```typescript
-type MyEvents = {
+// Load the EventEmitter and EventMap type from the library
+import EventEmitter, { type EventMap } from "@anephenix/event-emitter";
+
+type MyEvents = EventMap & {
   message: (data: { name: string; text: string }) => void;
   join: (username: string) => void;
   leave: (username: string) => void;
