@@ -46,7 +46,7 @@ describe("EventEmitter", () => {
 				const emitter = new EventEmitter<MyEvents>();
 				const listener = vi.fn();
 				const events: (keyof MyEvents)[] = ["event1", "event2"];
-				emitter.on(["event1", "event2"], listener);
+				emitter.on(events, listener);
 				expect(emitter.events.event1).toContain(listener);
 				expect(emitter.events.event2).toContain(listener);
 			});
@@ -75,10 +75,10 @@ describe("EventEmitter", () => {
 				const emitter = new EventEmitter<MyEvents>();
 				const listener = vi.fn();
 				const events: (keyof MyEvents)[] = ["event1", "event2"];
-				emitter.on(["event1", "event2"], listener);
+				emitter.on(events, listener);
 				expect(emitter.events.event1).toContain(listener);
 				expect(emitter.events.event2).toContain(listener);
-				emitter.off(["event1", "event2"], listener);
+				emitter.off(events, listener);
 				expect(emitter.events.event1).not.toContain(listener);
 				expect(emitter.events.event2).not.toContain(listener);
 			});

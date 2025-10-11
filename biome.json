@@ -7,7 +7,7 @@
 	},
 	"files": {
 		"includes": [
-			".github",
+			".github/**",
 			"scripts/**/*",
 			"src/**/*",
 			"test/**/*",
