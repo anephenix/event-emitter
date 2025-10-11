@@ -108,6 +108,20 @@ emitter.emit("join", "Alice");
 This will help with preventing the misspelling of event names and also ensuring 
 that the event data payloads are correct.
 
+## Applying multiple event names for the same listener
+
+If you find that you have multiple event names calling the same function, and 
+you would like to DRY up your code a bit, you can pass the event names in an 
+array to the `on` function like this:
+
+```typescript
+emitter.on(['user-join', 'bot-join'], (username:string) => {
+    console.log(`${username} joined`);
+});
+```
+
+It also works for `off` calls as well.
+
 ## Tests
 
 You can run the unit tests using this command:

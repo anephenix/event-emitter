@@ -11,14 +11,26 @@ class EventEmitter<T extends EventMap> {
 		}
 	}
 
-	on<K extends keyof T>(event: K, listener: T[K]): void {
+	on<K extends keyof T>(event: K | K[], listener: T[K]): void {
+		if (Array.isArray(event)) {
+			for (const ev of event) {
+				this.on(ev, listener);
+			}
+			return;
+		}
 		if (!this.events[event]) {
 			this.events[event] = [];
 		}
 		this.events[event].push(listener);
 	}
 
-	off<K extends keyof T>(event: K, listener: T[K]): void {
+	off<K extends keyof T>(event: K | K[], listener: T[K]): void {
+		if (Array.isArray(event)) {
+			for (const ev of event) {
+				this.off(ev, listener);
+			}
+			return;
+		}
 		const listeners = this.events[event];
 		if (!listeners) return;
 		this.events[event] = listeners.filter((l) => l !== listener);

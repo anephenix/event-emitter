@@ -40,6 +40,17 @@ describe("EventEmitter", () => {
 			emitter.on("testEvent", listener);
 			expect(emitter.events.testEvent).toContain(listener);
 		});
+
+		describe("when passed an array of event names", () => {
+			test("should add the listener to each event", () => {
+				const emitter = new EventEmitter<MyEvents>();
+				const listener = vi.fn();
+				const events: (keyof MyEvents)[] = ["event1", "event2"];
+				emitter.on(["event1", "event2"], listener);
+				expect(emitter.events.event1).toContain(listener);
+				expect(emitter.events.event2).toContain(listener);
+			});
+		});
 	});
 
 	describe("off", () => {
@@ -57,6 +68,20 @@ describe("EventEmitter", () => {
 			const anotherListener = () => "2 + 2 is 4 - 1 that's 3 quick maths";
 			emitter.on("testEvent", anotherListener);
 			expect(() => emitter.off("testEvent", listener)).not.toThrow();
+		});
+
+		describe("when passed an array of event names", () => {
+			test("should remove the listener from each event", () => {
+				const emitter = new EventEmitter<MyEvents>();
+				const listener = vi.fn();
+				const events: (keyof MyEvents)[] = ["event1", "event2"];
+				emitter.on(["event1", "event2"], listener);
+				expect(emitter.events.event1).toContain(listener);
+				expect(emitter.events.event2).toContain(listener);
+				emitter.off(["event1", "event2"], listener);
+				expect(emitter.events.event1).not.toContain(listener);
+				expect(emitter.events.event2).not.toContain(listener);
+			});
 		});
 	});
 
