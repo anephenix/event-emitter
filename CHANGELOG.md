@@ -1,5 +1,14 @@
 # Changelog
 
+### 0.0.14 - Saturday 11th October, 2025
+
+- Biome fixes
+- Added support for being able to add/remove multiple event names with the same listener function in one go
+- Merge pull request #44 from anephenix/dependabot/npm_and_yarn/types/node-24.7.1
+- Bump @types/node from 24.7.0 to 24.7.1
+- Update biome version in json config
+- Make sure event emitter contains only the dist files and readme in the package
+
 ### 0.0.13 - Wednesday 8th October, 2025
 
 - Added publint to verify the package.json
