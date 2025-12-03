@@ -132,4 +132,4 @@ npm t
 
 ## Licence and Credits
 
-&copy;2025 Anephenix OÜ. EventEmitter is licenced under the MIT licence.
+&copy;2025 Anephenix Ltd. EventEmitter is licenced under the MIT licence.
