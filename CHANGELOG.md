@@ -1,5 +1,80 @@
 # Changelog
 
+### 0.0.17 - Saturday 21st March, 2026
+
+- Updated biome.json config file
+- Updated dependencies
+- Merge pull request #145 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.8
+- Bump @biomejs/biome from 2.4.7 to 2.4.8
+- Merge pull request #144 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.7
+- Bump @biomejs/biome from 2.4.6 to 2.4.7
+- Merge pull request #142 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-4.1.0
+- Bump @vitest/coverage-v8 from 4.0.18 to 4.1.0
+- Merge pull request #141 from anephenix/dependabot/npm_and_yarn/vitest-4.1.0
+- Merge pull request #143 from anephenix/dependabot/npm_and_yarn/types/node-25.5.0
+- Bump @types/node from 25.4.0 to 25.5.0
+- Bump vitest from 4.0.18 to 4.1.0
+- Merge pull request #140 from anephenix/dependabot/npm_and_yarn/types/node-25.4.0
+- Bump @types/node from 25.3.5 to 25.4.0
+- Updated biome schema
+- Version updates to actions with github workflow files
+- Merge pull request #137 from anephenix/dependabot/npm_and_yarn/types/node-25.3.5
+- Bump @types/node from 25.3.3 to 25.3.5
+- Merge pull request #135 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.6
+- Bump @biomejs/biome from 2.4.5 to 2.4.6
+- Merge pull request #134 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.5
+- Bump @biomejs/biome from 2.4.4 to 2.4.5
+- Updated biome schema version
+- Updated dependencies
+- Merge pull request #133 from anephenix/dependabot/npm_and_yarn/types/node-25.3.2
+- Bump @types/node from 25.3.1 to 25.3.2
+- Merge pull request #132 from anephenix/dependabot/npm_and_yarn/types/node-25.3.1
+- Bump @types/node from 25.3.0 to 25.3.1
+- Merge pull request #131 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.4
+- Bump @biomejs/biome from 2.4.3 to 2.4.4
+- Merge pull request #130 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.3
+- Merge pull request #129 from anephenix/dependabot/npm_and_yarn/types/node-25.3.0
+- Bump @biomejs/biome from 2.4.2 to 2.4.3
+- Bump @types/node from 25.2.3 to 25.3.0
+- Merge pull request #128 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.2
+- Bump @biomejs/biome from 2.4.1 to 2.4.2
+- Merge pull request #127 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.1
+- Bump @biomejs/biome from 2.3.15 to 2.4.1
+- Merge pull request #126 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.3.15
+- Bump @biomejs/biome from 2.3.14 to 2.3.15
+- Merge pull request #125 from anephenix/dependabot/npm_and_yarn/types/node-25.2.3
+- Bump @types/node from 25.2.2 to 25.2.3
+- Merge pull request #124 from anephenix/dependabot/npm_and_yarn/types/node-25.2.2
+- Bump @types/node from 25.2.1 to 25.2.2
+- Merge pull request #123 from anephenix/dependabot/npm_and_yarn/types/node-25.2.1
+- Bump @types/node from 25.2.0 to 25.2.1
+- Merge pull request #122 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.3.14
+- Bump @biomejs/biome from 2.3.13 to 2.3.14
+- Merge pull request #121 from anephenix/dependabot/npm_and_yarn/types/node-25.2.0
+- Bump @types/node from 25.1.0 to 25.2.0
+- Merge pull request #120 from anephenix/dependabot/npm_and_yarn/types/node-25.1.0
+- Bump @types/node from 25.0.10 to 25.1.0
+- Merge pull request #119 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.3.13
+- Bump @biomejs/biome from 2.3.12 to 2.3.13
+- Merge pull request #117 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.3.12
+- Merge pull request #116 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-4.0.18
+- Merge pull request #115 from anephenix/dependabot/npm_and_yarn/types/node-25.0.10
+- Merge pull request #114 from anephenix/dependabot/npm_and_yarn/publint-0.3.17
+- Bump @biomejs/biome from 2.3.11 to 2.3.12
+- Bump @vitest/coverage-v8 from 4.0.17 to 4.0.18
+- Bump @types/node from 25.0.9 to 25.0.10
+- Bump publint from 0.3.16 to 0.3.17
+- Merge pull request #113 from anephenix/dependabot/npm_and_yarn/types/node-25.0.9
+- Bump @types/node from 25.0.8 to 25.0.9
+- Merge pull request #112 from anephenix/dependabot/npm_and_yarn/types/node-25.0.8
+- Bump @types/node from 25.0.6 to 25.0.8
+- Merge pull request #110 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-4.0.17
+- Merge pull request #109 from anephenix/dependabot/npm_and_yarn/types/node-25.0.6
+- Bump @vitest/coverage-v8 from 4.0.16 to 4.0.17
+- Bump @types/node from 25.0.3 to 25.0.6
+- Merge pull request #108 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.3.11
+- Bump @biomejs/biome from 2.3.10 to 2.3.11
+
 ### 0.0.16 - Sunday 4th January, 2026
 
 - Tweaks for new publish workflow
