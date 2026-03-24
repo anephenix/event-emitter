@@ -5,6 +5,7 @@
 		"verbatimModuleSyntax": true, // ← keeps import paths untouched
 		"resolvePackageJsonExports": true, // ← helps with modern resolution
 		"target": "ES2020",
+		"rootDir": "./src",
 		"outDir": "./dist",
 		"declaration": true,
 		"sourceMap": true,
