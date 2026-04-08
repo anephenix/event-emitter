@@ -1,5 +1,27 @@
 # Changelog
 
+### 0.0.18 - Wednesday 8th April, 2026
+
+- Updated biome schema
+- Updated dependencies
+- Merge pull request #155 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-4.1.3
+- Bump @vitest/coverage-v8 from 4.1.2 to 4.1.3
+- Merge pull request #153 from anephenix/dependabot/npm_and_yarn/types/node-25.5.2
+- Bump @types/node from 25.5.0 to 25.5.2
+- Merge pull request #152 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.10
+- Bump @biomejs/biome from 2.4.9 to 2.4.10
+- Merge pull request #150 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-4.1.2
+- Bump @vitest/coverage-v8 from 4.1.1 to 4.1.2
+- Merge pull request #151 from anephenix/dependabot/npm_and_yarn/vitest-4.1.2
+- Bump vitest from 4.1.1 to 4.1.2
+- Merge pull request #149 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.4.9
+- Bump @biomejs/biome from 2.4.8 to 2.4.9
+- Merge pull request #147 from anephenix/dependabot/npm_and_yarn/typescript-6.0.2
+- Set the tsconfig.json file's rootDir configuration
+- Merge pull request #146 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-4.1.1
+- Bump typescript from 5.9.3 to 6.0.2
+- Bump @vitest/coverage-v8 from 4.1.0 to 4.1.1
+
 ### 0.0.17 - Saturday 21st March, 2026
 
 - Updated biome.json config file
