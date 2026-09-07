@@ -58,7 +58,7 @@
 		"@size-limit/esbuild-why": "^13.0.1",
 		"@size-limit/preset-small-lib": "^13.0.1",
 		"@types/node": "^26.0.0",
-		"@vitest/coverage-v8": "^4.0.1",
+		"@vitest/coverage-v8": "^5.0.0",
 		"husky": "^9.1.7",
 		"publint": "^0.3.14",
 		"size-limit": "^13.0.1",
