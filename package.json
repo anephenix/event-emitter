@@ -55,13 +55,13 @@
 	],
 	"devDependencies": {
 		"@biomejs/biome": "^2.0.6",
-		"@size-limit/esbuild-why": "^13.0.1",
+		"@size-limit/esbuild-why": "^14.0.0",
 		"@size-limit/preset-small-lib": "^14.0.0",
 		"@types/node": "^26.0.0",
 		"@vitest/coverage-v8": "^5.0.0",
 		"husky": "^9.1.7",
 		"publint": "^0.3.14",
-		"size-limit": "^13.0.1",
+		"size-limit": "^14.0.0",
 		"typescript": "^7.0.2",
 		"vitest": "^5.0.0"
 	}
