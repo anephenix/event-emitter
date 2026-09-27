@@ -1,5 +1,89 @@
 # Changelog
 
+### 0.0.20 - Sunday 27th September, 2026
+
+- Updated dependencies
+- Updated biome schema version
+- Updated dependencies
+- Merge pull request #240 from anephenix/dependabot/npm_and_yarn/types/node-26.6.1
+- Merge pull request #241 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.14
+- Bump @biomejs/biome from 2.5.13 to 2.5.14
+- Bump @types/node from 26.5.1 to 26.6.1
+- Merge pull request #235 from anephenix/dependabot/npm_and_yarn/size-limit/preset-small-lib-14.0.0
+- Merge pull request #239 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-5.0.1
+- Merge pull request #236 from anephenix/dependabot/npm_and_yarn/vitest-5.0.1
+- Bump @vitest/coverage-v8 from 5.0.0 to 5.0.1
+- Bump vitest from 5.0.0 to 5.0.1
+- Bump @size-limit/preset-small-lib from 13.1.1 to 14.0.0
+- Merge pull request #233 from anephenix/dependabot/npm_and_yarn/size-limit/esbuild-why-13.1.1
+- Bump @size-limit/esbuild-why from 13.0.3 to 13.1.1
+- Merge pull request #234 from anephenix/dependabot/npm_and_yarn/size-limit/preset-small-lib-13.1.1
+- Bump @size-limit/preset-small-lib from 13.0.3 to 13.1.1
+- Merge pull request #231 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.13
+- Merge pull request #230 from anephenix/dependabot/npm_and_yarn/types/node-26.5.1
+- Bump @biomejs/biome from 2.5.12 to 2.5.13
+- Bump @types/node from 26.5.0 to 26.5.1
+- Merge pull request #229 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-5.0.0
+- Updated the biome schema
+- Updated dependencies
+- Merge branch 'main' into dependabot/npm_and_yarn/vitest/coverage-v8-5.0.0
+- Merge pull request #226 from anephenix/dependabot/npm_and_yarn/types/node-26.4.1
+- Merge pull request #227 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.12
+- Bump @vitest/coverage-v8 from 4.1.11 to 5.0.0
+- Bump @biomejs/biome from 2.5.11 to 2.5.12
+- Bump @types/node from 26.4.0 to 26.4.1
+- Merge pull request #225 from anephenix/dependabot/npm_and_yarn/types/node-26.4.0
+- Merge pull request #224 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.11
+- Bump @types/node from 26.3.0 to 26.4.0
+- Bump @biomejs/biome from 2.5.10 to 2.5.11
+- Merge pull request #223 from anephenix/dependabot/npm_and_yarn/types/node-26.3.0
+- Bump @types/node from 26.2.0 to 26.3.0
+- Merge pull request #222 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.10
+- Bump @biomejs/biome from 2.5.9 to 2.5.10
+- Merge pull request #221 from anephenix/dependabot/npm_and_yarn/publint-0.3.24
+- Bump publint from 0.3.23 to 0.3.24
+- Merge pull request #220 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.9
+- Merge pull request #219 from anephenix/dependabot/npm_and_yarn/vitest/coverage-v8-4.1.11
+- Merge pull request #218 from anephenix/dependabot/npm_and_yarn/vitest-4.1.11
+- Bump @biomejs/biome from 2.5.8 to 2.5.9
+- Bump @vitest/coverage-v8 from 4.1.10 to 4.1.11
+- Bump vitest from 4.1.10 to 4.1.11
+- Merge pull request #217 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.8
+- Bump @biomejs/biome from 2.5.7 to 2.5.8
+- Merge pull request #216 from anephenix/dependabot/npm_and_yarn/types/node-26.2.0
+- Bump @types/node from 26.1.2 to 26.2.0
+- Merge pull request #215 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.7
+- Merge pull request #214 from anephenix/dependabot/npm_and_yarn/publint-0.3.23
+- Bump @biomejs/biome from 2.5.6 to 2.5.7
+- Bump publint from 0.3.22 to 0.3.23
+- Merge pull request #213 from anephenix/dependabot/npm_and_yarn/size-limit/esbuild-why-13.0.3
+- Bump @size-limit/esbuild-why from 13.0.2 to 13.0.3
+- Merge pull request #211 from anephenix/dependabot/npm_and_yarn/size-limit/preset-small-lib-13.0.3
+- Merge pull request #212 from anephenix/dependabot/npm_and_yarn/size-limit-13.0.3
+- Bump size-limit from 13.0.2 to 13.0.3
+- Bump @size-limit/preset-small-lib from 13.0.2 to 13.0.3
+- Merge pull request #209 from anephenix/dependabot/npm_and_yarn/size-limit/esbuild-why-13.0.2
+- Bump @size-limit/esbuild-why from 13.0.1 to 13.0.2
+- Merge pull request #208 from anephenix/dependabot/npm_and_yarn/size-limit/preset-small-lib-13.0.2
+- Bump @size-limit/preset-small-lib from 13.0.1 to 13.0.2
+- Merge pull request #207 from anephenix/dependabot/npm_and_yarn/types/node-26.1.2
+- Merge pull request #206 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.6
+- Bump @types/node from 26.1.1 to 26.1.2
+- Bump @biomejs/biome from 2.5.5 to 2.5.6
+- Merge pull request #203 from anephenix/dependabot/npm_and_yarn/size-limit/esbuild-why-13.0.1
+- Applied updates for packages
+- Bump @size-limit/esbuild-why from 12.1.0 to 13.0.1
+- Merge pull request #205 from anephenix/dependabot/npm_and_yarn/size-limit/preset-small-lib-13.0.1
+- Updated biome schema version
+- Updated dependencies
+- Bump @size-limit/preset-small-lib from 12.1.0 to 13.0.1
+- Merge pull request #202 from anephenix/dependabot/npm_and_yarn/publint-0.3.22
+- Bump publint from 0.3.21 to 0.3.22
+- Merge pull request #201 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.5
+- Bump @biomejs/biome from 2.5.4 to 2.5.5
+- Merge pull request #200 from anephenix/dependabot/npm_and_yarn/biomejs/biome-2.5.4
+- Bump @biomejs/biome from 2.5.3 to 2.5.4
+
 ### 0.0.19 - Tuesday 14th July, 2026
 
 - Updated dependencies
