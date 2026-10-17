@@ -36,7 +36,7 @@
 	],
 	"scripts": {
 		"build": "tsc --project tsconfig.json",
-		"cover": "npx nyc --reporter=lcov --reporter=text-summary --nycrc-path=./.nyc.json -- npm t --  --coverage",
+		"cover": "npm t --  --coverage",
 		"lint": "biome lint",
 		"lint:package": "npx publint",
 		"format": "biome format --fix",
